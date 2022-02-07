@@ -14,7 +14,7 @@ function rot13(str) {
     if (str.length>0 && str[0].charCodeAt()<78){
         return String.fromCharCode(str[0].charCodeAt(0)+13)+ rot13(str.slice(1));
     }
-    if (str.length>0 && str[0].charCodeAt()<78){
+    if (str.length==1 && str[0].charCodeAt()<78){
         return String.fromCharCode(str[0].charCodeAt(0)+13)
     }
     return str
