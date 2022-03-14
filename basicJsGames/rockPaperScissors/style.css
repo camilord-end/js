@@ -40,3 +40,24 @@ body {
   justify-content: space-between;
   text-align: left;
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+#rock,
+#paper,
+#scissors {
+  padding: 5px;
+  color: #0c2d48;
+  border-radius: 5px;
+}
+
+#icon-output-win{
+  color: rgb(255, 255, 255);
+}
+
+#icon-output-lose{
+  color: rgb(0, 0, 0);
+}
